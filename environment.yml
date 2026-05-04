@@ -21,7 +21,6 @@ dependencies:
   - gxx
   - torchvision
 
-  -
   - nvidia/label/cuda-11.8.0::cuda-nvcc  # for nvcc
   - nvidia/label/cuda-11.8.0::cuda-cccl
   - nvidia/label/cuda-11.8.0::cuda-cudart
@@ -34,7 +33,6 @@ dependencies:
   - nvidia/label/cuda-11.8.0::libcurand-dev
   - nvidia/label/cuda-11.8.0::libcusolver
   - nvidia/label/cuda-11.8.0::libcusolver-dev
-  - pip:
 
   - pip:
       - --extra-index-url https://download.pytorch.org/whl/cu118
